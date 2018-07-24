@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [неваляш](https://htmlacademy.ru/profile/nevalashka).
-* Наставник: [Юлия Цаповa] (https://htmlacademy.ru/profile/id479537).
+* Наставница: [Юлия Цаповa] (https://htmlacademy.ru/profile/id479537).
 
 ---
 
