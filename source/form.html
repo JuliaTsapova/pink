@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+      <meta charset="utf-8">
+      <title>HTML Academy: Пинк</title>
+    </head>
+    <body>
+        <header class="page-header">
+            <nav class="main-nav">
+                <div class="main-nav__logo">Pink</div>
+                <button class="main-nav__toggle" type="button">Открыть меню</button>
+                <ul class="main-nav__list site-list">
+                    <li class="site-list__item">
+                        <a>Главная</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="photo.html">Фотографии</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="form.html">Конкурс</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#">HTML Academy</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+      <main class="page-main">
+        <section class="caption">
+          <h2 class="caption__text">Конкурс на самое безбашенное путешествие с Пинк</h2>
+        </section>
+        <section class="form-wrapper">
+          <form class="form" action="https://echo.htmlacademy.ru" method="post">
+            <p class="form__text">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!</p>
+            <label for="surname">Фамилия:</label>
+            <input id="surname" type="text" name="surname" value="Укажите фамилию*" required>
+
+            <label for="name">Имя:</label>
+            <input id="name" type="text" name="name" value="Введите ваше имя*" required>
+
+            <label for="patronemic">Отчество:</label>
+            <input id="patronemic" type="text" name="patronemic" value="Ну и отчество тоже">
+
+            <fieldset class="achivments">
+            <legend>Ваши безбашенные достижения в путешествии</legend>
+              <input class="visually-hidden" type="checkbox" name="selfie" id="selfie" checked>
+              <label for="selfie">Сделать селфи с акулой</label>
+
+              <input class="visually-hidden" type="checkbox" name="sunbathing" id="sunbathing">
+              <label for="sunbathing">Обгореть на пляже</label>
+
+              <input class="visually-hidden" type="checkbox" name="saw-chuck-norris" id="saw-chuck-norris">
+              <label for="saw-chuck-norris">Видел Чака Норриса</label>
+
+              <input class="visually-hidden" type="checkbox" name="souvenirs" id="souvenirs">
+              <label for="souvenirs">Накупил сувениров</label>
+
+              <input class="visually-hidden" type="checkbox" name="hold-tower" id="hold-tower" checked>
+              <label for="hold-tower">Удержал башню</label>
+
+              <input class="visually-hidden" type="checkbox" name="destroyed-hotel" id="destroyed-hotel">
+              <label for="destroyed-hotel">Разгромил отель</label>
+            </fieldset>
+            <label for="telephone">Номер телефона</label>
+            <input id="surname" type="numers" name="telephone" value="Номер телефона">
+
+            <label for="email">Адрес почты</label>
+            <input id="email" type="text" name="email" value="Введите почту*" required>
+
+             <fieldset>
+               <legend>С каким приложением путешествовали?</legend>
+               <ul class="filter">
+                 <li class="filter__option">
+                   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="ios" value="phone" id="phone">
+                   <label for="phone">Pink для IOS</label>
+                 </li>
+                 <li class="filter__option">
+                   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="android" value="phone" id="phone">
+                   <label for="phone">Pink для Anroid</label>
+                 </li>
+                 <li class="filte__option">
+                   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="windows-phone" value="phone" id="phone">
+                   <label for="phone">Windows Phone</label>
+                 </li>
+               </ul>
+            </fieldset>
+            <label for="review-text">Опишите свои эмоции</label>
+            <input id="review-text" type="text" name="review-text" value="Можно прям в красках, не стесняясь в выражениях" required>
+            <button class="btn" type="submit">Отправить форму</button>
+            <span class="form__footnote">* - обязательные поля</span>
+          </form>
+        </section>
+      </main>
+      <footer class="inner-footer">
+        <div class="inner-footer__social">
+          <a class="social-btn social-btn-twitter" href="https://twitter.com">
+            <img src="img/twitter.svg" width="17" height="15" alt="Иконка твиттера">
+          </a>
+          <a class="social-btn social-btn-facebook" href="https://facebook.com">
+            <img src="img/fb-icon.svg" width="12" height="22" alt="Иконка фейсбука">
+          </a>
+          <a class="social-btn social-btn-youtube" href="https://youtube.com">
+            <img src="img/youtube.svg" width="20" height="16" alt="Иконка ютьуба">
+          </a>
+        </div>
+        <div class="inner-footer__copyright">
+          <p>Разработано</p>
+          <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="#" alt="логотип академии"></a>
+        </div>
+      </footer>
+  </body>
+</html>
