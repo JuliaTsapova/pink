@@ -2,6 +2,7 @@
 <html lang="ru">
 
 <head>
+  <link href="css/style.css" rel='stylesheet' type='text/css'>
   <meta charset="utf-8">
   <title>HTML Academy: Пинк</title>
 </head>
@@ -65,12 +66,12 @@
           <p class="reviews__text">"Это приложение перевернуло мой мир и позволило по-новому взгялнуть на привычные серые вещи! А еще я познакомился со своей будующей женой в комментариях к выложенной фотографии!"</p>
         </li>
         <li class="reviews__list__item">
-          <h3 class="reviews__caption">Николай Педров</h3>
+          <h3 class="reviews__caption">Шурочка Пидров</h3>
           <p class="reviews__text">"Это приложение перевернуло мой мир и вернуло меня к жизни, теперь я наканец-то нашел себя после долгих лет потуг"</p>
         </li>
         <li class="reviews__list__item">
-          <h3 class="reviews__caption">Николай Кукушкин</h3>
-          <p class="reviews__text">"Не могу представить как я жил без этого великого приложения, где можно постить фотографии"</p>
+          <h3 class="reviews__caption">Алёша Кукушкин</h3>
+          <p class="reviews__text">"Не могу представить как я жил без этого великого приложения, где можно постить фотографии и пременять разные фильтры"</p>
         </li>
       </ul>
       <p class="reviews__toggles slider__toggles">
@@ -80,44 +81,47 @@
       </p>
     </section>
     <section class="price">
-      <ul class="price__list">
-        <li class="price__item-main">
-          Стандарт 3,99 USD
-        </li>
-        <li class="price__item">
-          Розовый фильтр
-        </li>
-        <li class="price__item">
-          Комментарии
-        </li>
-      </ul>
-      <ul class="price__list">
-        <li class="price__item-main">
-          Стандарт 3,99 USD
-        </li>
-        <li class="price__item">
-          Розовый фильтр
-        </li>
-        <li class="price__item">
-          Комментарии
-        </li>
-      </ul>
-      <ul class="price__list">
-        <li class="price__item-main">
-          Стандарт 3,99 USD
-        </li>
-        <li class="price__item">
-          Розовый фильтр
-        </li>
-        <li class="price__item">
-          Комментарии
-        </li>
-      </ul>
-      <p class="price__toggles slider__toggles">
+      <h2 class="visually-hidden">Таблица с ценами</h2>
+      <table class="price__table">
+        <tr>
+          <th></th>
+          <th class="table__caption">
+            <b class="table__name">База</b>
+            <p class="table__price">1,99 USD</p>
+          </th>
+          <th class="table__caption table--hit">
+            <b class="table__name">Стандарт</b>
+            <p class="table__price">3,99 USD</p>
+          </th>
+          <th class="table__caption">
+            <b class="table__name">Анлим</b>
+            <p class="table__price">9,99 USD</p>
+          </th>
+        </tr>
+        <tr class="table__row">
+          <td class="table__item">Розовый фильтр</td>
+          <td class="table--check-mark"></td>
+          <td class="table--check-mark"></td>
+          <td class="table--check-mark"></td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__item">Смайлики</td>
+          <td class="table--cross"></td>
+          <td class="table--check-mark"></td>
+          <td class="table--check-mark"></td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__item">Комментарии</td>
+          <td class="table--cross"></td>
+          <td class="table--cross"></td>
+          <td class="table--check-mark"></td>
+        </tr>
+      </table>
+      <div class="price__toggles slider__toggles">
         <button class="slider__toggle" type="button">1</button>
         <button class="slider__toggle" type="button">2</button>
         <button class="slider__toggle" type="button">3</button>
-      </p>
+      </div>
     </section>
     <section class="contacts">
       <p class="contacts__text">Остались вопросы? Свяжитесь с нами!</p>
