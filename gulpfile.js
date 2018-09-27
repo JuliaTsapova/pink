@@ -1,16 +1,16 @@
 "use strict";
 
 var gulp = require("gulp");
-var less = require("gulp-less");
+var scss = require("gulp-sass");
 var plumber = require("gulp-plumber");
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
 var server = require("browser-sync").create();
 
 gulp.task("style", function() {
-  gulp.src("source/less/style.less")
+  gulp.src("source/scss/style.scss")
     .pipe(plumber())
-    .pipe(less())
+    .pipe(scss())
     .pipe(postcss([
       autoprefixer()
     ]))
@@ -27,6 +27,8 @@ gulp.task("serve", ["style"], function() {
     ui: false
   });
 
-  gulp.watch("source/less/**/*.less", ["style"]);
+  gulp.watch("source/scss/**/*.scss", ["style"]).on("change", server.reload);
   gulp.watch("source/*.html").on("change", server.reload);
 });
+
+gulp.task("default", ['style', 'serve']);

@@ -36,5 +36,8 @@
   ],
   "engines": {
     "node": "8.11"
+  },
+  "dependencies": {
+    "gulp-sass": "^4.0.1"
   }
 }
