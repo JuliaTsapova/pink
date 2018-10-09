@@ -1,0 +1,51 @@
+.features {
+  color: #283645;
+  text-align: center;
+}
+
+.features__wrapper {
+  background-color: #ffffff;
+}
+
+.features__list {
+  background-color: #f2f2f2;
+}
+
+.features__item {
+  list-style: none;
+}
+
+.features__question {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.features__subtitle {
+  display: block;
+  margin-top: 20px;
+}
+
+.features__caption {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000;
+  margin: 0 0 14px;
+}
+.features__text {
+  margin-bottom: 50px;
+}
+
+
+/*.features__wrapper::before {
+  content: "";
+  top: 0;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background: #f2f2f2 url(../img/bg-triangle-white.svg) no-repeat center top;
+  background-size: 100% 31px;
+  z-index: 0;
+}
+*/
