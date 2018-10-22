@@ -1,6 +1,7 @@
 .reviews {
   text-align: center;
 }
+
 .price {
   background-color: #f2f2f2;
 }
@@ -19,23 +20,5 @@
 
 .reviews__text {
   line-height: 30px;
-}
-
-.table__caption {
-  background-color: #283645;
-}
-
-.table__name {
-  font-size: 18px;
-  font-weight: bold;
-  color: #ffffff;
-}
-
-.table__price {
-  font-size: 24px;
-  color: #ffffff;
-}
-
-.table__item {
-  color: #283645;
+  padding: 0 50px;
 }

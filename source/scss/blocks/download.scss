@@ -1,10 +1,9 @@
 .download {
   color: #ffffff;
   text-align: center;
-  background-color: #1d2631;
-  width: 320px;
-  min-height: 395px;
   background: url("../img/bg-back-mobile@1x.jpg") no-repeat;
+  background-color: #1d2631;
+  background-size: cover;
 }
 
 .download__picture {
@@ -12,11 +11,13 @@
   background: url("../img/iphone-hand-mobile@1x.png") no-repeat;
   background-position: 0px 176px;
 }
+
 .download__block {
   background-color: #1d2631;
   min-height: 270px;
   padding-top: 40px;
 }
+
 .download__link {
   color: #ffffff;
   font-size: 18px;
@@ -30,6 +31,7 @@
   margin: 0;
   padding: 0;
 }
+
 .download__item {
   list-style: none;
   width: 50px;
@@ -62,5 +64,5 @@
 }
 
 .download__description {
-  padding: 0 20px;
+  padding: 0 120px;
 }
