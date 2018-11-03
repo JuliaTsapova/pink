@@ -17,7 +17,10 @@
   min-height: 270px;
   padding-top: 40px;
 }
+.download__header {
+  display: none;
 
+}
 .download__link {
   color: #ffffff;
   font-size: 18px;
@@ -65,4 +68,19 @@
 
 .download__description {
   padding: 0 120px;
+}
+
+
+@media (min-width: $tablet-width) {
+  .download__block {
+
+  }
+  .download__picture {
+    background-position: 50% 100%;
+  }
+  .download__header {
+    display: block;
+    font-size: 24px;
+    font-weight: lighter;
+  }
 }
