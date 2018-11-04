@@ -9,11 +9,12 @@
 
 .features__list {
   background-color: #f2f2f2;
-  padding: 0 50px;
 }
 
 .features__item {
   list-style: none;
+  width: 250px;
+  margin: 0 auto;
 }
 
 .features__question {
@@ -38,7 +39,12 @@
 .features__text {
   margin-bottom: 50px;
 }
-
+.features__photo {
+  background: url('../img/iphone-screen-mobile@1x.png') no-repeat;
+  width: 200px;
+  margin: 0 auto;
+  min-height: 280px;
+}
 
 /*.features__wrapper::before {
   content: "";
@@ -51,3 +57,9 @@
   z-index: 0;
 }
 */
+
+@media (min-width: $tablet-width) {
+  .features__subtitle {
+    margin: 0;
+  }
+}

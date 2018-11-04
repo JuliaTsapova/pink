@@ -72,15 +72,26 @@
 
 
 @media (min-width: $tablet-width) {
+  .download {
+    display: flex;
+  }
   .download__block {
-
+    background-color: transparent;
+    margin-top: 80px;
+    width: 400px;
   }
   .download__picture {
-    background-position: 50% 100%;
+    min-height: 300px;
+    width: 300px;
+    background-position: 0px 135px;
   }
   .download__header {
     display: block;
     font-size: 24px;
     font-weight: lighter;
+    margin-bottom: 40px;
+  }
+  .download__description {
+    padding: 0 60px;
   }
 }
