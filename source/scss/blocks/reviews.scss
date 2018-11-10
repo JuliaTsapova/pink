@@ -14,3 +14,23 @@
 .reviews__text {
   line-height: 30px;
 }
+.reviews__age-work {
+  display: none;
+}
+@media (min-width: $tablet-width) {
+  .reviews__item {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .reviews__caption {
+    margin: 0;
+  }
+  .reviews__age-work {
+    display: block;
+    margin: 0;
+    font-size: 12px;
+  }
+  .reviews__text {
+    margin-bottom: 30px;
+  }
+}
