@@ -1,0 +1,45 @@
+.footer {
+  display: none;
+}
+@media (min-width: $tablet-width) {
+  .footer {
+    display: block;
+    min-height: 100px;
+    margin-top: 40px;
+  }
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  .footer__social {
+    display: flex;
+    margin: 10px;
+  }
+  .footer__copyright {
+    display: flex;
+  }
+  .footer__wrapper2 {
+    width: 75px;
+    height: 75px;
+  }
+  .social {
+    margin: 15px;
+    border: 3px solid gainsboro;
+    text-align: center;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 100%;
+    display: inline-block;
+    vertical-align: top;
+    fill: hotpink;
+  }
+  .footer__link {
+    width: 50px;
+    height: 50px;
+  }
+  .footer__text {
+    padding-top: 10px;
+  }
+}

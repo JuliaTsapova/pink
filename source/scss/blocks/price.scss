@@ -1,0 +1,64 @@
+.price {
+  background-color: #f2f2f2;
+  min-height: 280px;
+}
+
+.price__table {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.table__caption {
+  background-color: #283645;
+  line-height: 30px;
+  padding: 10px;
+  width: 160px;
+  height: 80px;
+}
+
+.table__name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+}
+
+.table__price {
+  font-size: 18px;
+  margin: 0;
+  color: #ffffff;
+  font-weight: lighter;
+}
+
+.table--hit {
+  background-image: url('../img/bg-hit-tablet.svg');
+  background-repeat: no-repeat;
+}
+
+.table__item {
+  color: #283645;
+  padding: 10px;
+  min-width: 150px;
+}
+
+.table__row {
+  background-color: #ffffff;
+}
+
+.table--cont {
+  padding-top: 7px;
+  display: block;
+  text-align: center;
+}
+
+/*
+.table--cross {
+  background: url("../img/icon-no.svg") no-repeat;
+  background-position: center;
+}
+
+.table--check-mark {
+  background: url("../img/icon-yes.svg") no-repeat;
+  background-position: center;
+}
+*/

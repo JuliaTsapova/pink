@@ -1,0 +1,23 @@
+.effect {
+  display: none;
+}
+@media (min-width: $tablet-width) {
+  .effect {
+    display: flex;
+  }
+  .effect__picture {
+    width: 250px;
+    height: 250px;
+    background: url("../img/effect-pic.png") no-repeat;
+    background-size: contain;
+    margin: 30px;
+  }
+  .effect__information {
+    width: 380px;
+    margin-top: 30px;
+  }
+  .effect__link {
+    color: hotpink;
+    text-decoration: underline;
+  }
+}

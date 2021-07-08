@@ -1,0 +1,61 @@
+.page-header {
+  background-color: #1d2631;
+  position: absolute;
+  width: 100%;
+  min-height: 65px;
+}
+
+.main-nav__logo {
+  padding: 20px 0 0 20px;
+}
+
+.main-nav__burger-icon {
+  padding: 20px 20px 0 0;
+}
+
+.main-nav__item {
+  text-align: center;
+  padding-top: 14px;
+  min-height: 64px;
+  font-size: 18px;
+  line-height: 32px;
+  list-style: none;
+  border-top: 1px solid #485461;
+  border-bottom: 1px solid #000000;
+}
+
+.main-nav__link {
+  color: #ffffff;
+}
+
+.main-nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav__toggle {
+  display: block;
+  width: 50px;
+  height: 24px;
+  background-color: #1d2631;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.main-nav__list {
+  padding: 0;
+}
+
+.main-nav__list-wrapper {
+  max-height: 320px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.main-nav__list-wrapper.hidden {
+  max-height: 0;
+
+}
+
+

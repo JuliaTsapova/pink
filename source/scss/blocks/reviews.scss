@@ -1,0 +1,56 @@
+.reviews {
+  text-align: center;
+  padding: 0 50px;
+}
+
+.reviews__item {
+  list-style: none;
+}
+
+.reviews__caption {
+  font-size: 18px;
+}
+
+.reviews__text {
+  line-height: 30px;
+}
+
+.reviews__age-work {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .reviews__item {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .reviews__caption {
+    margin: 0;
+  }
+
+  .reviews__age-work {
+    display: block;
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .reviews__text {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .reviews__list::before {
+    content: open-quote;
+    font-size: 90px;
+    color: gainsboro;
+
+  }
+
+  .reviews__list {
+    width: 600px;
+    margin: 0 auto;
+    padding: 70px 0 50px;
+  }
+}
